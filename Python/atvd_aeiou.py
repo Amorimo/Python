@@ -1,14 +1,8 @@
-letra=input("Digite uma letra: ")
+letra=input("Digite uma letra: ").lower()
 
-if letra=="a":
+if letra=="a" or letra=="e" or letra=="i" or letra=="o" or letra=="u":
     print("Vogal")
-elif letra=="e":
-    print("Vogal")
-elif letra=="i":
-    print("Vogal")
-elif letra=="o":
-    print("Vogal")
-elif letra=="u":
-    print("Vogal")
+
 else:
     print("Consoante")
+    

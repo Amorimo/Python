@@ -4,4 +4,4 @@ if n1>0:
 elif n1<0:
     print(f"{n1} é Negativo")
 else:
-    print("Número inválido")
+    print("Número neutro")
